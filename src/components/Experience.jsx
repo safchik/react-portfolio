@@ -6,6 +6,10 @@ import reactImage from '../assets/react.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import nextjs from '../assets/nextjs.png';
+import csharp from '../assets/csharp.svg';
+import postgresql from '../assets/postgresql.svg';
+import visualstudio from '../assets/visualstudio.svg';
+import dotnetcore from '../assets/dotnetcore.svg';
 
 const Experience = () => {
     const techs = [
@@ -49,6 +53,30 @@ const Experience = () => {
             id: 7,
             src: nextjs,
             title: 'NextJS',
+            style: 'shadow-white'
+        },
+        {
+            id: 8,
+            src: csharp,
+            title: 'C#',
+            style: 'shadow-purple-500'
+        },
+        {
+            id: 9,
+            src: postgresql,
+            title: 'PostgreSQL',
+            style: 'shadow-pink-500'
+        },
+        {
+            id: 10,
+            src: visualstudio,
+            title: 'VisualStudio',
+            style: 'shadow-white'
+        },
+        {
+            id: 11,
+            src: dotnetcore,
+            title: '.NETCore',
             style: 'shadow-white'
         },
     ]
