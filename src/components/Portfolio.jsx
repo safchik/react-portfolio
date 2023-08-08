@@ -2,7 +2,7 @@ import React from 'react';
 import snake from '../assets/portfolio/snake.jpg';
 import tetris from '../assets/portfolio/tetris.jpg';
 import cosmic from '../assets/portfolio/cosmic.jpg';
-import leetclone from '../assets/portfolio/leetclone.png';
+import leetclone from '../assets/portfolio/leetclone.jpg';
 import news from '../assets/portfolio/news.jpg';
 
 const Portfolio = () => {
