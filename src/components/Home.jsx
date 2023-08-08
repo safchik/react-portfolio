@@ -1,6 +1,7 @@
 import React from 'react'
 import DmytroImage from "../assets/dmytro.jpg"
 import { MdKeyboardArrowRight } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -12,14 +13,14 @@ const Home = () => {
                         I'm a passionate and dedicated software developer with a strong foundation in JavaScript, React, and database management. As a graduate of the Northcoders Junior Software Developer Bootcamp, I've gained practical experience in building full-stack web applications using modern technologies. I thrive in collaborative environments and enjoy solving complex problems through innovative solutions.
                     </p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 
                         flex items-center rounded-md 
                         bg-gradient-to-r from-blue-500 to-cyan-500 cursor-pointer'>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdKeyboardArrowRight size={25} className='ml-1' />
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
