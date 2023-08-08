@@ -2,6 +2,8 @@ import React from 'react';
 import snake from '../assets/portfolio/snake.jpg';
 import tetris from '../assets/portfolio/tetris.jpg';
 import cosmic from '../assets/portfolio/cosmic.jpg';
+import leetclone from '../assets/portfolio/leetclone.png';
+import news from '../assets/portfolio/news.jpg';
 
 const Portfolio = () => {
     const portfolios = [
@@ -16,6 +18,14 @@ const Portfolio = () => {
         {
             id: 3,
             src: cosmic
+        },
+        {
+            id: 4,
+            src: leetclone
+        },
+        {
+            id: 5,
+            src: news
         },
     ]
 
