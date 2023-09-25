@@ -9,23 +9,28 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: snake
+            src: snake,
+            githubUrl: 'https://github.com/safchik/Snake2',
         },
         {
             id: 2,
-            src: tetris
+            src: tetris,
+            githubUrl: 'https://github.com/safchik/Tetris',
         },
         {
             id: 3,
-            src: cosmic
+            src: cosmic,
+            githubUrl: 'https://github.com/safchik/cosmic-conflict-fe',
         },
         {
             id: 4,
-            src: leetclone
+            src: leetclone,
+            githubUrl: 'https://github.com/safchik/leetclone',
         },
         {
             id: 5,
-            src: news
+            src: news,
+            githubUrl: 'https://github.com/safchik/nc-news',
         },
     ]
 
@@ -40,12 +45,19 @@ const Portfolio = () => {
 
                 <div className='grid sm:grid-solid-cols md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        portfolios.map(({ id, src }) => (
+                        portfolios.map(({ id, src, githubUrl }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
+                                    <a
+                                        href={githubUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-gray-400 hover:text-white'
+                                    >
+                                        Code
+                                    </a>
                                     <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-gray-400 hover:text-white'>Demo</button>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-gray-400 hover:text-white'>Code</button>
                                 </div>
                             </div>
                         ))
