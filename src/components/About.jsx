@@ -19,10 +19,6 @@ const About = () => {
                 </p>
 
                 <br />
-
-                <p className='text-xl'>
-
-                </p>
             </div>
         </div>
     )
