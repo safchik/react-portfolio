@@ -1,7 +1,3 @@
-# Live 
-
-To viev live demonstration of my portfolio click [here](https://poetic-jalebi-8b0c07.netlify.app)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

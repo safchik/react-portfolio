@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        <div name="home" className='h-screen sm:w-full bg-gradient-to-b from-black to-gray-800 '>
+        <div name="home" className='h-screen w-full bg-gradient-to-b from-black to-gray-800 '>
             <div className='max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-6xl font-semibold text-gray-400'>I'm a Fullstack Developer</h2>
