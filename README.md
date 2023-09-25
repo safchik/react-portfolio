@@ -1,4 +1,4 @@
-# Live demonstration of my portfolio ttps://poetic-jalebi-8b0c07.netlify.app
+# Live demonstration of my portfolio [here](https://poetic-jalebi-8b0c07.netlify.app)
 
 # Getting Started with Create React App
 
