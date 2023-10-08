@@ -32,6 +32,12 @@ const Portfolio = () => {
             src: news,
             githubUrl: 'https://github.com/safchik/nc-news',
         },
+        {
+            id: 6,
+            src: nicecalendar,
+            githubUrl: 'https://github.com/safchik/calendar',
+            demoUrl: 'https://nicecalendar.netlify.app'
+        },
     ]
 
     return (
@@ -57,7 +63,14 @@ const Portfolio = () => {
                                     >
                                         Code
                                     </a>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-gray-400 hover:text-white'>Demo</button>
+                                    <a
+                                        href={demoUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-gray-400 hover:text-white'
+                                    >
+                                        Demo
+                                    </a>
                                 </div>
                             </div>
                         ))
