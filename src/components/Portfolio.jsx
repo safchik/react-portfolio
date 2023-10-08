@@ -4,6 +4,7 @@ import tetris from '../assets/portfolio/tetris.jpg';
 import cosmic from '../assets/portfolio/cosmic.jpg';
 import leetclone from '../assets/portfolio/leetclone.jpg';
 import news from '../assets/portfolio/news.jpg';
+import nicecalendar from '../assets/portfolio/nicecalendar.png'
 
 const Portfolio = () => {
     const portfolios = [
@@ -36,7 +37,7 @@ const Portfolio = () => {
             id: 6,
             src: nicecalendar,
             githubUrl: 'https://github.com/safchik/calendar',
-            demoUrl: 'https://nicecalendar.netlify.app'
+            demoUrl: 'https://nicecalendar.netlify.app',
         },
     ]
 
@@ -51,7 +52,7 @@ const Portfolio = () => {
 
                 <div className='grid sm:grid-solid-cols md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        portfolios.map(({ id, src, githubUrl }) => (
+                        portfolios.map(({ id, src, githubUrl, demoUrl }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
