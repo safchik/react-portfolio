@@ -11,45 +11,45 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: snake,
-            githubUrl: 'https://github.com/safchik/Snake2',
+            src: aintro,
+            githubUrl: 'https://github.com/safchik/gpt-3',
+            demoUrl: 'https://aintro.netlify.app',
         },
         {
             id: 2,
-            src: tetris,
-            githubUrl: 'https://github.com/safchik/Tetris',
-        },
-        {
-            id: 3,
-            src: cosmic,
-            githubUrl: 'https://github.com/safchik/cosmic-conflict-fe',
-        },
-        {
-            id: 4,
-            src: leetclone,
-            githubUrl: 'https://github.com/safchik/leetclone',
-        },
-        {
-            id: 5,
-            src: news,
-            githubUrl: 'https://github.com/safchik/nc-news',
-        },
-        {
-            id: 6,
             src: nicecalendar,
             githubUrl: 'https://github.com/safchik/calendar',
             demoUrl: 'https://nicecalendar.netlify.app',
         },
         {
+            id: 3,
+            src: news,
+            githubUrl: 'https://github.com/safchik/nc-news',
+        },
+        {
+            id: 4,
+            src: snake,
+            githubUrl: 'https://github.com/safchik/Snake2',
+        },
+        {
+            id: 5,
+            src: tetris,
+            githubUrl: 'https://github.com/safchik/Tetris',
+        },
+        {
+            id: 6,
+            src: cosmic,
+            githubUrl: 'https://github.com/safchik/cosmic-conflict-fe',
+        },
+        {
             id: 7,
-            src: aintro,
-            githubUrl: 'https://github.com/safchik/gpt-3',
-            demoUrl: 'https://aintro.netlify.app',
+            src: leetclone,
+            githubUrl: 'https://github.com/safchik/leetclone',
         },
     ]
 
     return (
-        <div name="portfolio" className='w-full md:h-screen bg-gradient-to-b from-black to-gray-800  text-white'>
+        <div name="portfolio" className='w-full sm:h-screen bg-gradient-to-b from-black to-gray-800  text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
