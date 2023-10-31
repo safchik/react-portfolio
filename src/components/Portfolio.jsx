@@ -39,6 +39,12 @@ const Portfolio = () => {
             githubUrl: 'https://github.com/safchik/calendar',
             demoUrl: 'https://nicecalendar.netlify.app',
         },
+        {
+            id: 7,
+            src: aintro,
+            githubUrl: 'https://github.com/safchik/gpt-3',
+            demoUrl: 'https://aintro.netlify.app',
+        },
     ]
 
     return (
