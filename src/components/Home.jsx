@@ -5,11 +5,11 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        <div name="home" className='h-screen w-full bg-gradient-to-b from-black to-gray-800 '>
+        <div name="home" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 '>
             <div className='max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4'>
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className='text-4xl sm:text-6xl font-semibold text-gray-400'>I'm a Fullstack Developer</h2>
-                    <p className='text-gray-500 py-4 max-w-md'>
+                    <h2 className='text-4xl sm:text-6xl font-semibold text-gray-300'>I'm a Fullstack Developer</h2>
+                    <p className='text-gray-400 py-4 max-w-md'>
                         I'm a passionate and dedicated software developer with a strong foundation in JavaScript, React, and database management. As a graduate of the Northcoders Junior Software Developer Bootcamp, I've gained practical experience in building full-stack web applications using modern technologies. I thrive in collaborative environments and enjoy solving complex problems through innovative solutions.
                     </p>
                     <div>

@@ -5,6 +5,7 @@ import cosmic from '../assets/portfolio/cosmic.jpg';
 import leetclone from '../assets/portfolio/leetclone.jpg';
 import news from '../assets/portfolio/news.jpg';
 import nicecalendar from '../assets/portfolio/nicecalendar.png'
+import aintro from '../assets/portfolio/ai.png'
 
 const Portfolio = () => {
     const portfolios = [
@@ -84,9 +85,9 @@ const Portfolio = () => {
                     }
                 </div>
 
-                <br />
 
             </div>
+            <br />
         </div>
     )
 }
