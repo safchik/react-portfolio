@@ -4,8 +4,9 @@ import tetris from '../assets/portfolio/tetris.jpg';
 import cosmic from '../assets/portfolio/cosmic.jpg';
 import leetclone from '../assets/portfolio/leetclone.jpg';
 import news from '../assets/portfolio/news.jpg';
-import nicecalendar from '../assets/portfolio/nicecalendar.png'
+import nicecalendar from '../assets/portfolio/nicecalendar.jpg'
 import aintro from '../assets/portfolio/ai.png'
+import restaurantino from '../assets/portfolio/restaurantino.png'
 
 const Portfolio = () => {
     const portfolios = [
@@ -17,32 +18,38 @@ const Portfolio = () => {
         },
         {
             id: 2,
+            src: restaurantino,
+            githubUrl: 'https://github.com/safchik/restaurant',
+            demoUrl: 'restaurantino.netlify.app',
+        },
+        {
+            id: 3,
             src: nicecalendar,
             githubUrl: 'https://github.com/safchik/calendar',
             demoUrl: 'https://nicecalendar.netlify.app',
         },
         {
-            id: 3,
+            id: 4,
             src: news,
             githubUrl: 'https://github.com/safchik/nc-news',
         },
         {
-            id: 4,
+            id: 5,
             src: snake,
             githubUrl: 'https://github.com/safchik/Snake2',
         },
         {
-            id: 5,
+            id: 6,
             src: tetris,
             githubUrl: 'https://github.com/safchik/Tetris',
         },
         {
-            id: 6,
+            id: 7,
             src: cosmic,
             githubUrl: 'https://github.com/safchik/cosmic-conflict-fe',
         },
         {
-            id: 7,
+            id: 8,
             src: leetclone,
             githubUrl: 'https://github.com/safchik/leetclone',
         },
