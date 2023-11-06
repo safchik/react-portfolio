@@ -20,7 +20,7 @@ const Portfolio = () => {
             id: 2,
             src: restaurantino,
             githubUrl: 'https://github.com/safchik/restaurant',
-            demoUrl: 'restaurantino.netlify.app',
+            demoUrl: 'https://restaurantino.netlify.app',
         },
         {
             id: 3,
