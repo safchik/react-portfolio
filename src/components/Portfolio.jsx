@@ -5,7 +5,7 @@ import cosmic from '../assets/portfolio/cosmic.jpg';
 import leetclone from '../assets/portfolio/leetclone.jpg';
 import news from '../assets/portfolio/news.jpg';
 import nicecalendar from '../assets/portfolio/nicecalendar.jpg'
-import aintro from '../assets/portfolio/ai.png'
+import aintro from '../assets/portfolio/ai.jpg'
 import restaurantino from '../assets/portfolio/restaurantino.png'
 
 const Portfolio = () => {
