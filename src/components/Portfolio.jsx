@@ -13,7 +13,7 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: aintro,
+            src: financeapp,
             githubUrl: 'https://github.com/safchik/financeapp',
             demoUrl: 'https://futurefinanceapp.netlify.app/',
         },
