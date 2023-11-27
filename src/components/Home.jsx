@@ -10,7 +10,11 @@ const Home = () => {
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-6xl font-semibold text-gray-300'>I'm a Fullstack Developer</h2>
                     <p className='text-gray-400 py-4 max-w-md'>
-                        I'm a passionate and dedicated software developer with a strong foundation in JavaScript, React, and database management. As a graduate of the Northcoders Junior Software Developer Bootcamp, I've gained practical experience in building full-stack web applications using modern technologies. I thrive in collaborative environments and enjoy solving complex problems through innovative solutions.
+                        I'm highly motivated software developer with a strong passion for building innovative
+                        web applications. As someone who can quickly adapt to new technologies, I'm
+                        committed to learning and contributing to a dynamic team while staying current
+                        with industry trends.
+
                     </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 
