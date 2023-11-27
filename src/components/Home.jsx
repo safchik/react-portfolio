@@ -8,7 +8,7 @@ const Home = () => {
         <div name="home" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 '>
             <div className='max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4'>
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className='text-4xl sm:text-6xl font-semibold text-gray-300'>I'm a Fullstack Developer</h2>
+                    <h2 className='text-4xl sm:text-6xl font-semibold text-gray-300'>I'm a Fullstack Software Developer</h2>
                     <p className='text-gray-400 py-4 max-w-md'>
                         I'm highly motivated software developer with a strong passion for building innovative
                         web applications. As someone who can quickly adapt to new technologies, I'm
