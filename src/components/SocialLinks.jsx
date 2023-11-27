@@ -34,7 +34,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    CV Download <BsFillPersonLinesFill size={25} />
+                    CV <BsFillPersonLinesFill size={25} />
                 </>
             ),
             href: '/Dmytro Savka Junior Fullstack Software Engineer CV.pdf',
