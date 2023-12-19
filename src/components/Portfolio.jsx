@@ -12,35 +12,36 @@ import trackapi from '../assets/portfolio/api.jpg'
 
 const Portfolio = () => {
     const portfolios = [
+
         {
             id: 1,
-            src: trackapi,
-            githubUrl: 'https://github.com/safchik/TrackingApi',
-            demoUrl: 'https://github.com/safchik/TrackingApi',
-        },
-        {
-            id: 2,
             src: financeapp,
             githubUrl: 'https://github.com/safchik/financeapp',
             demoUrl: 'https://futurefinanceapp.netlify.app/',
         },
         {
-            id: 3,
+            id: 2,
             src: aintro,
             githubUrl: 'https://github.com/safchik/gpt-3',
             demoUrl: 'https://aintro.netlify.app',
         },
         {
-            id: 4,
+            id: 3,
             src: restaurantino,
             githubUrl: 'https://github.com/safchik/restaurant',
             demoUrl: 'https://restaurantino.netlify.app',
         },
         {
-            id: 5,
+            id: 4,
             src: nicecalendar,
             githubUrl: 'https://github.com/safchik/calendar',
             demoUrl: 'https://nicecalendar.netlify.app',
+        },
+        {
+            id: 5,
+            src: trackapi,
+            githubUrl: 'https://github.com/safchik/TrackingApi',
+            demoUrl: 'https://github.com/safchik/TrackingApi',
         },
         {
             id: 6,
