@@ -9,62 +9,68 @@ import aintro from '../assets/portfolio/ai.jpg'
 import restaurantino from '../assets/portfolio/restaurantino.png'
 import financeapp from '../assets/portfolio/financeapp.jpg'
 import trackapi from '../assets/portfolio/api.jpg'
+import nike from '../assets/portfolio/nike.jpg'
 
 const Portfolio = () => {
     const portfolios = [
-
         {
             id: 1,
+            src: nike,
+            githubUrl: 'https://github.com/safchik/nike',
+            demoUrl: 'https://nikesportshoes.netlify.app/',
+        },
+        {
+            id: 2,
             src: financeapp,
             githubUrl: 'https://github.com/safchik/financeapp',
             demoUrl: 'https://futurefinanceapp.netlify.app/',
         },
         {
-            id: 2,
+            id: 3,
             src: aintro,
             githubUrl: 'https://github.com/safchik/gpt-3',
             demoUrl: 'https://aintro.netlify.app',
         },
         {
-            id: 3,
+            id: 4,
             src: restaurantino,
             githubUrl: 'https://github.com/safchik/restaurant',
             demoUrl: 'https://restaurantino.netlify.app',
         },
         {
-            id: 4,
+            id: 5,
             src: nicecalendar,
             githubUrl: 'https://github.com/safchik/calendar',
             demoUrl: 'https://nicecalendar.netlify.app',
         },
         {
-            id: 5,
+            id: 6,
             src: trackapi,
             githubUrl: 'https://github.com/safchik/TrackingApi',
             demoUrl: 'https://github.com/safchik/TrackingApi',
         },
         {
-            id: 6,
+            id: 7,
             src: news,
             githubUrl: 'https://github.com/safchik/nc-news',
         },
         {
-            id: 7,
+            id: 8,
             src: snake,
             githubUrl: 'https://github.com/safchik/Snake2',
         },
         {
-            id: 8,
+            id: 9,
             src: tetris,
             githubUrl: 'https://github.com/safchik/Tetris',
         },
         {
-            id: 9,
+            id: 10,
             src: cosmic,
             githubUrl: 'https://github.com/safchik/cosmic-conflict-fe',
         },
         {
-            id: 10,
+            id: 11,
             src: leetclone,
             githubUrl: 'https://github.com/safchik/leetclone',
         },
