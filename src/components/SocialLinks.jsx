@@ -37,7 +37,7 @@ const SocialLinks = () => {
                     CV <BsFillPersonLinesFill size={25} />
                 </>
             ),
-            href: '/Dmytro Savka Junior Software Developer CV.pdf',
+            href: '/Dmytro Savka Junior Software Engineer CV.docx',
             style: 'rounded-br-md',
             download: true,
         }
