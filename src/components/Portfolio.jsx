@@ -10,7 +10,7 @@ import restaurantino from '../assets/portfolio/restaurantino.png'
 import financeapp from '../assets/portfolio/financeapp.jpg'
 import trackapi from '../assets/portfolio/api.jpg'
 import nike from '../assets/portfolio/nike.jpg'
-import pokemon from '../assets/portfolio/pokemon.jpg'
+import pokemon from '../assets/portfolio/pokemonapi.jpg'
 
 const Portfolio = () => {
     const portfolios = [
